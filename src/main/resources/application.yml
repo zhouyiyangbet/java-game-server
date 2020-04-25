@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/game?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: rootroot
+    #spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
